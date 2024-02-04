@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:hover{
+            font-style: oblique;
+        }
+        p::first-letter{
+            font-size: larger;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        div p:nth-child(2){
+            font-style: italic;
+        }
+        ::placeholder{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <p>Hola</p>
+    <div>
+        <p>Chevrolet</p>
+        <p>Montecarlo</p>
+        <p>1987</p>
+    </div>
+    <input type="text" placeholder="Name">
+</body>
+</html>
